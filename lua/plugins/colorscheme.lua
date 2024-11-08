@@ -6,6 +6,13 @@ return {
     config = true,
     opts = {
       transparent_mode = true,
+      italic = {
+        strings = false,
+        emphasis = false,
+        comments = false,
+        operators = false,
+        folds = false,
+      },
     },
   },
 
